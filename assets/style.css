@@ -1,4 +1,25 @@
-header img{
-    size-adjust: 50% ;
-   
+*{
+    padding: 0;
+    margin: 0; 
+}
+
+  #adv1{
+    background-color: #A58548;
+  }
+
+  .adv{
+    text-decoration: none;
+    color: #EFE6DC;
+    font-size: 1.3vw;
+  }
+
+  .banner{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+}
+
+.nav-item{
+    list-style: none;
 }
