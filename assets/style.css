@@ -23,21 +23,25 @@ li{
   .adv{
     text-decoration: none;
     color: #EFE6DC;
-    font-size: 1.3vw;
+    font-size: .8rem;
   }
 
   .banner{
     display: block;
     width:100%;
+    margin: 0.3rem;
 }
 
 .navbar{
   color: #1C7A7F;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-  font-size: 1.5vw;
+  font-size: 1.0rem;
   padding: 0;
-  
+}
+
+.navbar-toggler-icon{
+  font-size: 0.5rem;
 }
 
 .home{
@@ -46,19 +50,33 @@ li{
 }
 
 .material-symbols-outlined{
-  font-size:1.9vw;
+  font-size:1.3rem;
 }
 
 .nav-item{
     list-style: none;
 }
 
-.btn{
+.dropdown-menu{
+  background-color:#EEE6DC ;
+  color: #323433;
+  font-size: 0.7rem;
+  font-family: Arial, Helvetica, sans-serif;
+  border-color: #1C7A7F;
+  min-width: 60px !important ;
+  min-height: 60px;
+}
+
+.dropdown-item:hover{
+  background-color: #A3CAB8;
+}
+
+.btn-search{
   background-color: #1C7A7F  !important;
   color: #EEE6DC !important;
   border: none !important;
-  height: 2.6vw;
-  width: 3.6vw;
+  height: 1.8rem;
+  width: 2.6rem;
   margin-right: 5px;
 }
 
@@ -91,31 +109,22 @@ input[type=search]:focus-visible{
 
 .form-control{
   background-color: #A3CAB8 !important;
-  height: 2.6vw;
-  width:18.9vw ;
+  height: 1.8rem;
+  width:12rem;
 }
 
 input[type=search]{
-  font-size: 1.2vw;
-  
+  font-size: 0.8rem; 
 }
 
-input[type=icon]{
-  font-size: 1.2vw;
-  overflow-wrap: normal;
-}
-
-.container-footer{
+.container-fluid-footer{
   background-color: #A58548;
   color: #ffffff;
-  font-size: 1.2vw;
+  font-size: .7rem;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: normal;
-  padding-top: 3.5vw ;
-  padding-left: 6.0vw;
+  padding-top: 1rem;
 }
-.row-footer{
-  padding-left: 2rem;
-  padding-bottom: 0.5vw;
-}
+
+
 
