@@ -139,7 +139,18 @@ input[type=search]{
 .logo{
   display: block;
   width: 75% ;
-  
-  
+}
+
+
+.bi-universal-access-circle{
+border-radius: 50%;
+color: #1C7A7F;
+filter: drop-shadow(3px 3px 2px #919191);
+background-color: #EEE6DC;
+
+}
+
+.bi-universal-access-circle:hover{
+  color: #A3CAB8;
 }
 
