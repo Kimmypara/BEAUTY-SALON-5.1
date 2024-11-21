@@ -1,5 +1,6 @@
 body{
   background-color: #EEE6DC;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 li{
@@ -36,7 +37,7 @@ li{
   color: #1C7A7F;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-  font-size: 1.0rem;
+  font-size: .9rem;
   padding: 0;
 }
 
@@ -50,7 +51,7 @@ li{
 }
 
 .material-symbols-outlined{
-  font-size:1.3rem;
+  font-size:1.1rem;
 }
 
 .nav-item{
@@ -114,7 +115,7 @@ input[type=search]:focus-visible{
 }
 
 input[type=search]{
-  font-size: 0.8rem; 
+  font-size: 0.7rem; 
 }
 
 .container-fluid-footer{
@@ -153,4 +154,31 @@ background-color: #EEE6DC;
 .bi-universal-access-circle:hover{
   color: #A3CAB8;
 }
+
+h1{
+  color: #1C7A7F;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.container-fluid-img{
+  position: relative;
+}
+
+.slogan{
+  position: absolute;
+  color: #1C7A7F;
+  font-size: 2rem;
+  top: 3rem;
+  margin-left: 3rem;
+  padding: .5rem;
+  text-align: center;
+  font-weight: bold;
+  background-color: #EEE6DC;
+  border-radius: 6px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
 
