@@ -166,7 +166,7 @@ h1{
   position: relative;
 }
 
-.slogan{
+#slogan1{
   position: absolute;
   color: #1C7A7F;
   font-size: 2rem;
@@ -177,8 +177,66 @@ h1{
   font-weight: bold;
   background-color: #EEE6DC;
   border-radius: 6px;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
+.button{
+  position: absolute;
+  background-color: #1C7A7F  !important;
+  color: #EEE6DC !important;
+  border: none !important;
+  top: 75%;
+  left: 45%;
+  font-size: 1rem;
+  text-align: center;
+  border-radius: 4px;
+  filter: drop-shadow(3px 3px 2px #595959);
+  padding: .2rem .5rem ;
+  text-decoration: none;
+}
 
+.button1{
+  background-color: #1C7A7F  !important;
+  color: #EEE6DC !important;
+  border: none !important;
+  font-size: 1rem;
+  text-align: center;
+  border-radius: 4px;
+  filter: drop-shadow(3px 3px 2px #595959);
+  padding: .2rem .5rem ;
+  text-decoration: none;
+ 
+}
 
+.button:hover{
+  color: #323433 !important;
+  background-color: #A3CAB8  !important;
+}
+
+#adv2{
+  background-color: #A58548;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.img1{
+  
+  width: 100%;
+  height: auto;
+}
+
+.slogan2{
+ position: absolute !important;
+  color: #1C7A7F;
+  font-size: 2rem;
+  top: 3rem;
+  margin-left: 3rem;
+  padding: .5rem;
+  text-align: center;
+  font-weight: bold;
+  background-color: #EEE6DC;
+  border-radius: 6px;
+}
+
+.container-fluid {
+  position: relative;
+}
