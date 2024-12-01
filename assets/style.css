@@ -35,7 +35,6 @@ li{
 
 .navbar{
   color: #1C7A7F;
-  font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: .9rem;
   padding: 0;
@@ -62,7 +61,6 @@ li{
   background-color:#EEE6DC ;
   color: #323433;
   font-size: 0.7rem;
-  font-family: Arial, Helvetica, sans-serif;
   border-color: #1C7A7F;
   min-width: 60px !important ;
   min-height: 60px;
@@ -118,11 +116,10 @@ input[type=search]{
   font-size: 0.7rem; 
 }
 
-.container-fluid-footer{
+.footer{
   background-color: #A58548;
   color: #ffffff;
   font-size: .8rem;
-  font-family: Arial, Helvetica, sans-serif;
   font-weight: normal;
   padding-top: 1rem;
   margin-top: 2rem;
@@ -133,7 +130,7 @@ input[type=search]{
   text-decoration: none;
   color: #ffffff;
   font-size: .7rem;
-  font-family: Arial, Helvetica, sans-serif;
+  
   font-weight: normal;
 }
 
@@ -157,15 +154,10 @@ background-color: #EEE6DC;
 
 h1{
   color: #1C7A7F;
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 2rem;
   font-weight: bolder;
 }
 
-.container-fluid-img{
-  position: relative;
-  border-radius: .5rem;
-}
 
 #slogan1{
   position: absolute;
@@ -181,7 +173,7 @@ h1{
 }
 
 .button{
-  width: 8rem;
+  width: 100%;
   background-color: #1C7A7F  !important;
   color: #EEE6DC !important;
   border: none !important;
@@ -196,12 +188,14 @@ h1{
   position: absolute;
   top: 75%;
   left: 45%;
+  width: 12rem;
+  
 }
 
 #btn2{
   text-align: center;
-  display: block;
-  margin-top: 9rem;
+  margin-top: 50%;
+  width: 100%;
 }
 
 
@@ -218,10 +212,14 @@ h1{
 
 .img1{
   width: 100%;
-  height: auto;
   margin-top: 1rem;
   border-radius: .5rem;
 }
+
+.w100{
+  width: 100% ;
+}
+
 
 .slogan2{
  position: absolute !important;
@@ -238,6 +236,7 @@ h1{
 
 .container-fluid {
   position: relative;
+  
 }
 
 h3{
