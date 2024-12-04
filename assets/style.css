@@ -158,10 +158,21 @@ h1{
   font-weight: bolder;
 }
 
-h2{
-  color: #323433;
+.card-title{
+  color: #323433 !important;
+  text-decoration: none !important;
   font-size: 1rem;
   font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card{
+border: #323433 solid 2px;
+}
+
+.code{
+  color: #323433 !important;
+  text-decoration: none !important;
+  font-size: .8rem;
 }
 
 #slogan1{
@@ -296,5 +307,7 @@ h3{
   text-align: center;
 }
 
-
+.h450{
+height: 450px;
+}
 
