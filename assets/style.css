@@ -184,7 +184,7 @@ h1{
   padding: .2rem .5rem ;
   text-decoration: none;
 }
-#btn1{
+.btn1{
   position: absolute;
   top: 75%;
   left: 45%;
@@ -192,10 +192,17 @@ h1{
   
 }
 
-#btn2{
+.btn2{
   text-align: center;
   margin-top: 50%;
   width: 100%;
+}
+
+.btn3{
+  text-align: center;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  width: 33%;
 }
 
 
