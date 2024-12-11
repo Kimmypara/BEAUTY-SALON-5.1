@@ -9,6 +9,7 @@
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
   <link rel="stylesheet" href="/assets/style.css">
+  
 </head>
 
 <body>
@@ -84,12 +85,20 @@
         </a>
 
 
-        <form class="d-flex" role="search"> <button class="btn btn-search btn-outline-success" type="submit">
+        <form class="d-flex" role="search"> <button id="search" class="btn btn-search btn-outline-success" type="submit">
             <span class="material-symbols-outlined search">
               search
             </span></button>
-          <input class="form-control me-2 " type="search" placeholder="Search" aria-label="Search">
+          <input id="input" class="form-control me-2 " list="search-suggestion" type="search" placeholder="Search" aria-label="Search">
+
+          <datalist id="search-suggestion" class="dropdown-menu">
+            <option class="dropdown-item" value="nail products">
+            <option class="dropdown-item" value="hair products">
+            <option class="dropdown-item" value="skin products">
+          </datalist>
         </form>
+
+        
       </div>
     </div>
   </nav>
@@ -139,9 +148,7 @@
 <!--First image-->
   <div class="container-fluid px-0" >
     <img src="../assets/images/beauty-salon.jpg" class="img-fluid " width="100% " height="auto" alt="image of beauty salon">
-    
-      
-      <div id="slogan1">
+    <div id="slogan1">
       Unleash Your Inner 
       <br>
       Beauty with Us
@@ -335,7 +342,7 @@
   <script src="../Bootstrap/bootstrap.bundle.min.js">
   </script>
 
-
+<script src="../Bootstrap/script.js"></script>
 
 </body>
 

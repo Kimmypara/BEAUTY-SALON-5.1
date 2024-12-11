@@ -161,13 +161,11 @@ h1{
 .card-title{
   color: #323433 !important;
   text-decoration: none !important;
-  font-size: 1rem;
+  font-size: .9rem;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
 }
-.card{
-border: #323433 solid 2px;
-}
+
 
 .code{
   color: #323433 !important;
@@ -227,6 +225,18 @@ border: #323433 solid 2px;
   text-align: center;
   margin: auto;
   width: 50% !important;
+  align-self: flex-start;
+  margin-top: auto;
+}
+
+.btn5{
+  display: inline-flex;
+  margin: auto;
+  width: 20% !important;
+  height: 2.5rem;
+  text-align: center;
+  justify-content: center; 
+  align-items: center;
 }
 
 .card-text{
@@ -238,6 +248,11 @@ border: #323433 solid 2px;
 .card-body{
   background-color: #EFE6DC;
   border: none !important;
+  font-size: .8rem;
+}
+
+.card{
+  display: flex;
 }
 
 .h200{
