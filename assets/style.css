@@ -2,6 +2,11 @@ body{
   background-color: #EEE6DC;
   font-family: Arial, Helvetica, sans-serif;
 }
+.bag{
+  position: relative;
+}
+
+
 
 li{
   list-style-type: none;
@@ -31,6 +36,22 @@ li{
     display: block;
     width:100%;
     margin: 0.3rem;
+}
+
+.num-of-items{
+  display: flex;
+  color: #EFE6DC;
+  background-color: #1C7A7F;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  font-size: .4rem;
+  width: .7rem;
+  height: .7rem;
+  position: absolute;
+  margin-top: -10px;
+  
 }
 
 .navbar{
@@ -167,6 +188,7 @@ h1{
 }
 
 
+
 .code{
   color: #323433 !important;
   text-decoration: none !important;
@@ -179,6 +201,18 @@ h1{
   font-size: 1.5rem;
   top: 3rem;
   margin-left: 3rem;
+  padding: .5rem;
+  text-align: center;
+  font-weight: bold;
+  background-color: #EEE6DC;
+  border-radius: .5rem;
+}
+
+#slogan2{
+  position: absolute;
+  color: #1C7A7F;
+  font-size: 1.5rem;
+  top: 3rem;
   padding: .5rem;
   text-align: center;
   font-weight: bold;
@@ -239,6 +273,16 @@ h1{
   align-items: center;
 }
 
+.btn6{
+  display: inline-flex;
+  margin: auto;
+  width: 1.5rem !important;
+  height: 1.5rem;
+  text-align: center;
+  justify-content: center; 
+  align-items: center;
+}
+
 .card-text{
   color: #323433;
   font-size: .8rem;
@@ -253,6 +297,18 @@ h1{
 
 .card{
   display: flex;
+}
+
+.addToBag{
+  background-color: #EFE6DC;
+  border: #1C7A7F solid 1px;
+  width: 40% ;
+  color: #323433;
+  position: fixed;
+  inset: 0 0 0 auto;
+  margin-top: 11rem;
+  
+  
 }
 
 .h200{
