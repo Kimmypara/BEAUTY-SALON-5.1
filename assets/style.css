@@ -199,7 +199,7 @@ h1{
   position: absolute;
   color: #1C7A7F;
   font-size: 1.5rem;
-  top: 3rem;
+  top: 2rem;
   margin-left: 3rem;
   padding: .5rem;
   text-align: center;
@@ -212,7 +212,8 @@ h1{
   position: absolute;
   color: #1C7A7F;
   font-size: 1.5rem;
-  top: 3rem;
+  top: 2rem;
+  margin-left: 2rem;
   padding: .5rem;
   text-align: center;
   font-weight: bold;
@@ -235,9 +236,10 @@ h1{
 .btn1{
   position: absolute;
   top: 75%;
-  left: 45%;
-  width: 12rem;
-  
+  left: 50%;
+  width: 14rem;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
 
 .btn2{
@@ -333,6 +335,11 @@ h1{
   border-radius: .5rem;
 }
 
+.img-fluid{
+  position: relative;
+}
+
+
 .w100{
   width: 100% ;
 }
@@ -382,3 +389,29 @@ h3{
 height: 450px;
 }
 
+
+
+
+
+@media (max-width: 500px) {
+  #slogan1{
+    font-size: .8rem;
+    margin-left: 1.5rem;
+    top: 1.5rem;
+  }
+  .btn1{
+    width: 8rem;
+    font-size:.6rem ;
+  }
+  #slogan2{
+    font-size: .8rem;
+    margin-left: 1rem;
+  }
+  .btn2{
+    font-size:.6rem ;
+    margin-left: 1rem;
+  }
+  .reviews{
+    padding: .4rem 3rem;
+  }
+}
