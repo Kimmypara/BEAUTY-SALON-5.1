@@ -92,6 +92,22 @@ body{
   align-items: center;
 }
 
+.btn7{
+  display: inline-flex;
+  width: 100%;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+.btn8{
+  width: 100% ;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  background-color: #A58548 !important;
+}
+
 .btn:focus-visible {
   outline: 0;
   box-shadow: 0 0 0 0.25rem #A3CAB8;
@@ -112,8 +128,7 @@ body{
 }
 
 .button{
-  width: 100% ;
-  background-color: #1C7A7F  !important;
+  background-color: #1C7A7F ;
   color: #EEE6DC !important;
   border: none !important;
   font-size: .8rem;
@@ -250,8 +265,13 @@ input[type=checkbox]:focus-visible{
   width:12rem;
 }
 
-input[type=search]{
-  font-size: 0.7rem; 
+.formFields{
+  display: flex;
+  margin-top: 1rem;
+  padding-left: 5px;
+  font-size: .8rem;
+  color: #323433;
+  font-weight: bold;
 }
 
 .footer{
@@ -281,12 +301,53 @@ input[type=search]{
   font-weight: normal;
 }
 
+.info1{
+  list-style-type:none ;
+  text-decoration: none;
+  color: #1C7A7F;
+  font-size: .8rem; 
+  font-weight: normal;
+  margin-left: 2rem;
+  line-height: 30px;
+}
+
+.info2{
+  list-style-type:none ;
+  text-decoration: none;
+  color: #1C7A7F;
+  font-size: .8rem; 
+  font-weight: normal;
+  margin-left: 2rem;
+  line-height: 0px;
+}
+
+.input{
+  width: 100%;
+  background-color: #EFE6DC;
+  border: #323433 solid 1px;
+  font-size: .8rem;
+  height: 2rem;
+  color: #6c6c6c;
+  margin-top: .3rem;
+  padding-left: 5px;
+}
+
+input[type=search]{
+  font-size: 0.7rem; 
+}
+
 .logo{
   display: block;
   width: 75% ;
 }
 
+.message{
+  height: 100% ;
+}
 
+.subject{
+  cursor: pointer;
+}
 
 
 
@@ -530,5 +591,11 @@ height: 450px;
  } 
  .info{
   font-size: .5rem;
+ }
+ .btn7{
+  width: 40% ;
+ }
+ .btn8{
+  width: 40% ;
  }
 }
