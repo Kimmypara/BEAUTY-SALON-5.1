@@ -153,7 +153,7 @@
           
             <div >
               <label class="formFields" for="firstName">First Name</label>
-              <input class="input" type="text" id="firstName" name="firstName" placeholder="Joe">
+              <input class="input" type="text" id="firstName" placeholder="Joe">
             </div>
         </div>
 
@@ -173,7 +173,7 @@
           <div>
             <label class="formFields" for="contactNumber">Contact Number</label>
             <input class="input" type="tel" id="contactNumber" name="contactNumber" placeholder="00356 21123456"
-              pattern="[0-9]{5} [0-9]{8}">
+              pattern="[0-9]{8}">
           </div>
         </div>
         <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
@@ -212,7 +212,10 @@
         </div>
         <div class="col-lg-2 col-md-2"></div>
       </div>
-  
+
+      <ul id="errorList" class="hidden">
+      </ul>
+
       <div class="container">
         <div class="row">
           <div class="col-lg-5 col-md-4 col-sm-4 col-xs-2"></div>
@@ -228,6 +231,8 @@
       </div>
   </div>
   </form>
+
+ 
    
   <div class="container mt-5">
     <div class="row">

@@ -98,6 +98,8 @@ body{
   display: flex;
   justify-content: center; 
   align-items: center;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 .btn8{
@@ -106,6 +108,8 @@ body{
   justify-content: center; 
   align-items: center;
   background-color: #A58548 !important;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 .btn:focus-visible {
@@ -226,8 +230,19 @@ li{
   background-color: #A3CAB8;
 }
 
+#errorList{
+color: #323433;
+font-size: .6rem;
+border: #9e0202 solid 3px;
+text-align: center;
+width: 50%;
+margin: auto;
+}
 
-
+/*Hidden elements*/
+.hidden{
+  display: none;
+}
 
 
 .nav-link:focus-visible {
