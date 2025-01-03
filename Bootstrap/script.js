@@ -36,25 +36,36 @@ document.getElementById("firstName").classList.add("inputError");
         if (subject.value == "") {
             //If the "Please Select" option is selected display error.
             errors = errors +"<li>Please selet a subject</li>";
-            document.getElementById("subject").classList.add("inputError");
+            document.getElementById("subject").classList.add("subjectError") ;
+            
         }
         else{
-          document.getElementById("subject").classList.remove("inputError");
+          document.getElementById("subject").classList.remove("optionError") ;
       }
+
+      
     
 
     let email = document.getElementById("email").value;
 
     if (email == ""){
         errors = errors + "<li>Please enter your email address</li>";
-    }
+        document.getElementById("email").classList.add("inputError");
+      }
+      else{
+          document.getElementById("email").classList.remove("inputError");
+      }
 
     
     let message = document.getElementById("message").value;
 
     if (message == ""){
         errors = errors + "<li>Please write your message</li>";
-    }
+        document.getElementById("message").classList.add("inputError");
+      }
+      else{
+          document.getElementById("message").classList.remove("inputError");
+      }
 
 
   //If errors are not empty, meaning if we have errors, add them to the HTML list and show it
