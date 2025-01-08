@@ -86,10 +86,8 @@ else{
 
 
 
-
-
-//let iconBag = document.getElementById("#shoppingBag");
-//let closeBag = document.getElementById("#close-Bag");
+//let iconBag = document.getElementById("shoppingBag");
+//let closeBag = document.getElementById("close-Bag");
 //let body = document.querySelector('body');
 //console.log
 
