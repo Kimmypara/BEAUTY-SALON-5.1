@@ -36,7 +36,7 @@ document.getElementById("firstName").classList.add("inputError");
         if (subject.value == "") {
             //If the "Please Select" option is selected display error.
             errors = errors +"<li>Please selet a subject</li>";
-            document.getElementById("subject").classList.add("subjectError") ;
+            document.getElementById("subject").classList.add("optionError") ;
             
         }
         else{

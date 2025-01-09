@@ -78,7 +78,7 @@
 
         <a class="nav-link" href="about-us.html">About Us</a>
 
-        <a class="nav-link" href="" >
+        <a class="nav-link" href="#" onclick="document.getElementById('cart').style.display='block'">
           <span id="shoppingBag" class="material-symbols-outlined iconBag">
             shopping_bag
           </span>
@@ -241,7 +241,94 @@
       </div>
     </div>
 
-
+      <!--cart -->
+      <div class="addToBag" id="cart" style="display: none;">
+        <button id="close-Bag" class="closeBag button btn6 text-center" onclick="document.getElementById('cart').style.display='none'">X</button>
+        <h2>Shopping Bag</h2>
+        <div class="listBag">
+          <div class="items">
+    
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" >
+            </div>
+            <div class="image">
+              <img src="../assets/images/skin-product-1.png" alt="SHISEIDO-MEN-SKIN-EMPOWERING-CREAM-50ML">
+            </div>
+            <div class="name">
+              SHISEIDO-MEN-SKIN-EMPOWERING-CREAM-50ML
+            </div>
+            <div class="totalPrice">
+              €128.00
+            </div>
+            <div class="quantity">
+              <span class="minus"><</span>
+              <span>1</span>
+              <span class="plus">></span>
+            </div>
+          </div>
+    
+          <div class="items">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" >
+            </div>
+            <div class="image">
+              <img src="../assets/images/hair-product-1.png" alt="Karseell Hair Mask Collagen Treatment">
+            </div>
+            <div class="name">
+              Karseell Hair Mask Collagen Treatment
+            </div>
+            <div class="totalPrice">
+              €23.00
+            </div>
+            <div class="quantity">
+              <span class="minus"><</span>
+              <span>1</span>
+              <span class="plus">></span>
+            </div>
+          </div>
+    
+          <div class="items">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" >
+            </div>
+            <div class="image">
+              <img src="../assets/images/hair-product-2.jpg" alt="Milkshake Incredible Milk">
+            </div>
+            <div class="name">
+              Milkshake Incredible Milk
+            </div>
+            <div class="totalPrice">
+              €14.50
+            </div>
+            <div class="quantity">
+              <span class="minus"><</span>
+              <span>1</span>
+              <span class="plus">></span>
+            </div>
+          </div>
+    
+          <div class="items">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" >
+            </div>
+            <div class="image">
+              <img src="../assets/images/nail-products-1.jpg" alt="B-PRO COLOUR Gel Polish 133">
+            </div>
+            <div class="name">
+              B-PRO COLOUR Gel Polish 133
+            </div>
+            <div class="totalPrice">
+              €7.95
+            </div>
+            <div class="quantity">
+              <span class="minus"><</span>
+              <span>1</span>
+              <span class="plus">></span>
+            </div>
+          </div>
+        </div>
+        <button class=" button btn5 text-center">Checkout</button>
+    </div> 
 
 
    <!--reviews -->
@@ -294,94 +381,7 @@
   </div>
 </div>
 
-      <!--cart -->
-  <div class="addToBag" id="cart">
-    <button id="close-Bag" class="closeBag button btn6 text-center" onclick="document.getElementById('cart').style.display='none'">X</button>
-    <h2>Shopping Bag</h2>
-    <div class="listBag">
-      <div class="items">
 
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" >
-        </div>
-        <div class="image">
-          <img src="../assets/images/skin-product-1.png" alt="SHISEIDO-MEN-SKIN-EMPOWERING-CREAM-50ML">
-        </div>
-        <div class="name">
-          SHISEIDO-MEN-SKIN-EMPOWERING-CREAM-50ML
-        </div>
-        <div class="totalPrice">
-          €128.00
-        </div>
-        <div class="quantity">
-          <span class="minus"><</span>
-          <span>1</span>
-          <span class="plus">></span>
-        </div>
-      </div>
-
-      <div class="items">
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" >
-        </div>
-        <div class="image">
-          <img src="../assets/images/hair-product-1.png" alt="Karseell Hair Mask Collagen Treatment">
-        </div>
-        <div class="name">
-          Karseell Hair Mask Collagen Treatment
-        </div>
-        <div class="totalPrice">
-          €23.00
-        </div>
-        <div class="quantity">
-          <span class="minus"><</span>
-          <span>1</span>
-          <span class="plus">></span>
-        </div>
-      </div>
-
-      <div class="items">
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" >
-        </div>
-        <div class="image">
-          <img src="../assets/images/hair-product-2.jpg" alt="Milkshake Incredible Milk">
-        </div>
-        <div class="name">
-          Milkshake Incredible Milk
-        </div>
-        <div class="totalPrice">
-          €14.50
-        </div>
-        <div class="quantity">
-          <span class="minus"><</span>
-          <span>1</span>
-          <span class="plus">></span>
-        </div>
-      </div>
-
-      <div class="items">
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" >
-        </div>
-        <div class="image">
-          <img src="../assets/images/nail-products-1.jpg" alt="B-PRO COLOUR Gel Polish 133">
-        </div>
-        <div class="name">
-          B-PRO COLOUR Gel Polish 133
-        </div>
-        <div class="totalPrice">
-          €7.95
-        </div>
-        <div class="quantity">
-          <span class="minus"><</span>
-          <span>1</span>
-          <span class="plus">></span>
-        </div>
-      </div>
-    </div>
-    <button class=" button btn5 text-center">Checkout</button>
-</div> 
 
   <!--footer-->
   <footer class="container-fluid footer ">
@@ -471,6 +471,7 @@
       </div>
     </div>
   </footer>
+  
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
