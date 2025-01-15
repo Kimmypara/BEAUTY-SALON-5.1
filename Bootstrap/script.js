@@ -84,16 +84,31 @@ else{
 
 
 
-
-
-//let iconBag = document.getElementById("shoppingBag");
-//let closeBag = document.getElementById("close-Bag");
-//let body = document.querySelector('body');
-//console.log
+function swapStyleSheet(sheet){
+  document.getElementById('styleLight').setAttribute('href', sheet);
+}
 
 
 
-//function openIconBag(){
-  //document.getElementById("shoppingBag").classList.toggle("showBag");
-  //document.getElementById("closeBag").classList.toggle("hideBag");
-//}
+
+
+
+/*
+
+var size = 20;
+    function setFontSize(s) {
+        size = s;
+        $('#sidebar-menu').css('font-size', '' + size + 'px');
+        $('#content').css('font-size', '' + size + 'px');
+    }
+    function increaseFontSize() {
+        setFontSize(size + 5);
+    }
+    function decreaseFontSize() {
+        if(size > 5)
+            setFontSize(size - 5);
+    }
+
+    $('#inc').click(increaseFontSize);
+    $('#dec').click(decreaseFontSize);
+    setFontSize(size);*/

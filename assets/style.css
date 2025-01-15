@@ -22,6 +22,11 @@
   display: block;
   width:100%;
   margin: 0.3rem;
+  
+}
+
+.header-banner{
+filter: drop-shadow(3px 3px 2px #919191);
 }
 
 .bi-universal-access-circle{
@@ -175,7 +180,9 @@ li{
 .footer-banner{
   display: flex;
   width:100%;
-    margin: 0.3rem;
+  margin: 0.3rem;
+  filter: drop-shadow(3px 3px 2px #363636);
+  
 }
 
 .num-of-items{
@@ -219,11 +226,15 @@ li{
 
 .dropdown-menu{
   background-color:#EEE6DC ;
-  color: #323433;
+ 
   font-size: 0.7rem;
   border-color: #1C7A7F;
   min-width: 60px !important ;
   min-height: 60px;
+}
+
+.dropdown-item{
+  color: #323433;
 }
 
 .dropdown-item:hover{
@@ -271,6 +282,10 @@ input[type=checkbox]:focus-visible{
 .optionError{
   color: #9e0202 !important;
   border: #9e0202 solid 1px !important;
+}
+
+.fony-size{
+  font-size: .8rem;
 }
 
 .form-check:focus{
@@ -639,3 +654,7 @@ height: 450px;
   width: 40% ;
  }
 }
+
+
+
+
