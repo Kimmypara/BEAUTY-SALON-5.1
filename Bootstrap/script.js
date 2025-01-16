@@ -83,7 +83,7 @@ else{
 
 
 
-
+//darkmode
 function swapStyleSheet(sheet){
   document.getElementById('styleLight').setAttribute('href', sheet);
 }

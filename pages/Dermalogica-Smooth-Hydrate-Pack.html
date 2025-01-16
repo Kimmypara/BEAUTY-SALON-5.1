@@ -69,7 +69,7 @@
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="nail-services.html">Nail Services</a></li>
             <li><a class="dropdown-item" href="hair-services.html">Hair Services</a></li>
-            <li><a class="dropdown-item" href="beauty-services.html">Beauty Services</a></li>
+            <li><a class="dropdown-item" href="beauty-care.html">Beauty Care</a></li>
           </ul>
         </li>
 
@@ -77,20 +77,29 @@
 
         <a class="nav-link" href="about-us.html">About Us</a>
 
-        <a class="nav-link" href="">
-          <span class="material-symbols-outlined bag">
+        <a class="nav-link" href="#" onclick="document.getElementById('cart').style.display='block'">
+          <span id="shoppingBag" class="material-symbols-outlined iconBag">
             shopping_bag
           </span>
           <span class="num-of-items">0</span>
         </a>
 
 
-        <form class="d-flex" role="search"> <button class="btn btn-search btn-outline-success" type="submit">
+        <form class="d-flex" role="search"> <button id="search" class="btn btn-search btn-outline-success" type="submit">
             <span class="material-symbols-outlined search">
               search
             </span></button>
-          <input class="form-control me-2 " type="search" placeholder="Search" aria-label="Search">
+          <input id="input" class="form-control me-2 " list="search-suggestion" type="search" placeholder="Search" aria-label="Search">
+
+
+          <datalist id="search-suggestion" class="dropdown-menu">
+            <option class="dropdown-item" value="nail products">
+            <option class="dropdown-item" value="hair products">
+            <option class="dropdown-item" value="skin products">
+          </datalist>
         </form>
+
+        
       </div>
     </div>
   </nav>
@@ -271,6 +280,96 @@
       </article>
     </div>
   </div>
+
+   <!--cart -->
+   <div class="addToBag" id="cart" style="display: none;">
+    <button id="close-Bag" class="closeBag button btn6 text-center" onclick="document.getElementById('cart').style.display='none'">X</button>
+    <h2>Shopping Bag</h2>
+    <div class="listBag">
+      <div class="items">
+
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" >
+        </div>
+        <div class="image">
+          <img src="../assets/images/skin-product-1.png" alt="SHISEIDO-MEN-SKIN-EMPOWERING-CREAM-50ML">
+        </div>
+        <div class="name">
+          Shiseido Men Skin Empowering Cream 50ml
+        </div>
+        <div class="totalPrice">
+          €128.00
+        </div>
+        <div class="quantity">
+          <span class="minus"><</span>
+          <span>1</span>
+          <span class="plus">></span>
+        </div>
+      </div>
+
+      <div class="items">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" >
+        </div>
+        <div class="image">
+          <img src="../assets/images/hair-product-1.png" alt="Karseell Hair Mask Collagen Treatment">
+        </div>
+        <div class="name">
+          Karseell Hair Mask Collagen Treatment
+        </div>
+        <div class="totalPrice">
+          €23.00
+        </div>
+        <div class="quantity">
+          <span class="minus"><</span>
+          <span>1</span>
+          <span class="plus">></span>
+        </div>
+      </div>
+
+      <div class="items">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" >
+        </div>
+        <div class="image">
+          <img src="../assets/images/hair-product-2.jpg" alt="Milkshake Incredible Milk">
+        </div>
+        <div class="name">
+          Milkshake Incredible Milk
+        </div>
+        <div class="totalPrice">
+          €14.50
+        </div>
+        <div class="quantity">
+          <span class="minus"><</span>
+          <span>1</span>
+          <span class="plus">></span>
+        </div>
+      </div>
+
+      <div class="items">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" >
+        </div>
+        <div class="image">
+          <img src="../assets/images/nail-products-1.jpg" alt="B-PRO COLOUR Gel Polish 133">
+        </div>
+        <div class="name">
+          B-PRO COLOUR Gel Polish 133
+        </div>
+        <div class="totalPrice">
+          €7.95
+        </div>
+        <div class="quantity">
+          <span class="minus"><</span>
+          <span>1</span>
+          <span class="plus">></span>
+        </div>
+      </div>
+    </div>
+    <button class=" button btn5 text-center">Checkout</button>
+</div> 
+
   
 <!--reviews -->
 <h1 class="text-center mt-3">Reviews</h1>
