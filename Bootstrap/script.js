@@ -4,43 +4,47 @@ function validate(){
   let firstName = document.getElementById("firstName").value;
 //Condition 
   if(firstName == ""){  
-errors = errors +"<li>Please enter First Name</li>";
+errors = errors +"<li>Please enter your First Name</li>";
 document.getElementById("firstName").classList.add("inputError");
   }
   else{
       document.getElementById("firstName").classList.remove("inputError");
+      
   }
 
   let lastName = document.getElementById("lastName").value;
   //Condition 
     if(lastName == ""){  
-  errors = errors +"<li>Please enter Last Name</li>";
+  errors = errors +"<li>Please enter your Last Name</li>";
   document.getElementById("lastName").classList.add("inputError");
     }
     else{
         document.getElementById("lastName").classList.remove("inputError");
+        
     }
 
     let contactNumber = document.getElementById("contactNumber").value;
     //Condition 
       if(contactNumber == ""){  
-    errors = errors +"<li>Please enter Telephone number</li>";
+    errors = errors +"<li>Please enter the Telephone number</li>";
     document.getElementById("contactNumber").classList.add("inputError");
       }
       else{
           document.getElementById("contactNumber").classList.remove("inputError");
+          
       }
 
       
         var subject = document.getElementById("subject");
         if (subject.value == "") {
             //If the "Please Select" option is selected display error.
-            errors = errors +"<li>Please selet a subject</li>";
+            errors = errors +"<li>Please select a subject</li>";
             document.getElementById("subject").classList.add("optionError") ;
             
         }
         else{
           document.getElementById("subject").classList.remove("optionError") ;
+          
       }
 
       
@@ -54,6 +58,7 @@ document.getElementById("firstName").classList.add("inputError");
       }
       else{
           document.getElementById("email").classList.remove("inputError");
+        
       }
 
     
@@ -65,8 +70,9 @@ document.getElementById("firstName").classList.add("inputError");
       }
       else{
           document.getElementById("message").classList.remove("inputError");
+         
       }
-
+      
 
   //If errors are not empty, meaning if we have errors, add them to the HTML list and show it
   if(errors != ""){
@@ -77,9 +83,15 @@ document.getElementById("firstName").classList.add("inputError");
 //if user has no errors, hide the errorList again
 else{
     document.getElementById("errorList").classList.add("hidden");
+    
     return true;
+    
+} 
+
+
 }
-}
+
+
 
 
 
