@@ -1,5 +1,5 @@
 function validate(){
-  let errors = " ";
+  let errors = "";
 //Get the value of the user input and copy it into variable
   let firstName = document.getElementById("firstName").value;
 //Condition 
@@ -78,12 +78,13 @@ document.getElementById("firstName").classList.add("inputError");
   if(errors != ""){
     document.getElementById("errorList").innerHTML = errors;
     document.getElementById("errorList").classList.remove("hidden");
+    console.log(errors);
     return false;
 }
 //if user has no errors, hide the errorList again
 else{
     document.getElementById("errorList").classList.add("hidden");
-    
+    console.log('2');
     return true;
     
 } 
