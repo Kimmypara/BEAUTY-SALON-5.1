@@ -475,6 +475,13 @@ h4{
   font-size: .8rem;
 }
 
+.card-body1{
+  background-color: #EFE6DC;
+  border: none !important;
+  font-size: .8rem;
+  list-style-type: circle;
+}
+
 .card{
   display: flex;
 }
