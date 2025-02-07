@@ -484,6 +484,13 @@
     font-size: .8rem;
     color: #EFE6DC;
   }
+
+  .card-body1{
+    background-color: #323433;
+    border: none !important;
+    font-size: .8rem;
+    color: #EFE6DC;
+  }
   
   .card{
     display: flex;

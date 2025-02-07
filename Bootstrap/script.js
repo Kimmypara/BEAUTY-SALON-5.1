@@ -101,9 +101,57 @@ function swapStyleSheet(sheet){
   document.getElementById('styleLight').setAttribute('href', sheet);
 }
 
+//Cart
+/*let body = document.querySelector('body');
+let listProductHTML = document.querySelector(".listProducts");
+
+let listProducts = [];
+
+const addDataToHTML = () => {
+  listProductHTML.innerHTML = '';
+  if(listProducts.length > 0){
+    listProducts.forEach(product =>{
+      let newProduct = document.createElement('div');
+      newProduct.classList.add('items');
+      newProduct.dataset.id = product.id;
+      newProduct.innerHTML = `
+      <div class="card h-100 " style="width: 100%;" >
+            <a href="DIVA-Collection.html"><img src="${product.image}" class="card-img-top" alt="DIVA Collection : 149, 150, 151, 152, 153"></a>
+            <div class="card-body d-flex flex-column">
+              <p class="card-title">${product.name}</p>
+              <p class="code">${product.code}</p>
+              <p class="card-text">
+              ${product.price}
+              </p>
+              <a href="" class="button btn  btn4 mt-auto mb-1">Add to Bag</a>
+            </div>
+          </div>
+      `;
+      listProductHTML.appendChild(newProduct);
+    })
+  }
+}
+
+listProductHTML.addEventListener('click', (event) =>{
+  let positionClick = event.target;
+  if (positionClick.classList.contains('btn4')){
+    
+    alert('1');
+  }
+})
 
 
-
+const initApp = () => {
+//get data from json
+fetch ('products.json')
+.then (response => response.json())
+.then (data => {
+  addToBag = data;
+  addDataToHTML();
+  console.log(addToBag);
+})
+}
+initApp();
 
 
 /*

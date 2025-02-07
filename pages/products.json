@@ -1,0 +1,49 @@
+[
+    {
+        "id": 1,
+        "name": "Shiseido Men Skin Empowering Cream 50ml",
+        "price": 128.00,
+        "image": "../assets/images/skin-product-1.png",
+        "code" : "SHMSC453"
+    },
+
+    {
+        "id": 2,
+        "name": "Karseell Hair Mask Collagen Treatmen",
+        "price": 23.00,
+        "image": "../assets/images/hair-product-1.png",
+        "code" : "KRSL6754"
+    },
+
+    {
+        "id": 3,
+        "name": "Milkshake Incredible Milk",
+        "price": 14.50,
+        "image": "../assets/images/hair-product-2.jpg",
+        "code" : "MLK453"
+    },
+
+    {
+        "id": 4,
+        "name": "B-PRO COLOUR Gel Polish 133",
+        "price": 7.95,
+        "image": "../assets/images/nail-products-1.jpg",
+        "code" : "BPCGP133" 
+    },
+
+    {
+        "id": 5,
+        "name": "Dermalogica Smooth+Hydrate Pack",
+        "price": 133.00,
+        "image": "../assets/images/DERMALOGICA-SMOOTH-HYDRATE-skin.webp",
+        "code" : "DSH547" 
+    },
+
+    {
+        "id": 6,
+        "name": "DIVA Collection : 149, 150, 151, 152, 153",
+        "price": 35.00,
+        "image": "../assets/images/DIVA-nail.jpeg",
+        "code" : "BPDVC153" 
+    }
+]

@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home Page</title>
+  <title>About Us page</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
@@ -125,7 +125,7 @@
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" id="inc" onclick="setFontSize(s)" href="#">Increase +</a></li>
             <li><a class="dropdown-item" id="dec" onclick="setFontSize(s)" href="#">Decrease -</a></li>
-            <li><button id="dark" class="dropdown-item" href="" onclick="swapStyleSheet('/assets/style-dark.css')"; >Dark Mode<svg xmlns="http://www.w3.org/2000/svg" width=".5rem"
+            <li><button id="dark" class="dropdown-item" href="" onclick="swapStyleSheet('/assets/style-dark.css')">Dark Mode<svg xmlns="http://www.w3.org/2000/svg" width=".5rem"
                   height="0.5rem" fill="currentColor" class="bi bi-moon-fill" viewBox="0 0 16 16">
                   <path
                     d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278" />
@@ -151,9 +151,13 @@
     </div>
 
     <!--team photo -->
-    <div class="container-fluid px-0" >
-      <img src="../assets/images/beauty-salon-group-photo.jpeg" class="img-fluid " 
-      width="100% " height="auto" alt="team members photo">
+    <div class="container-fluid " >
+      <div class="row px-0">
+        <div class="col-12 px-0">
+          <img src="../assets/images/beauty-salon-group-photo.jpeg" class="img-fluid w-100 px-0" 
+       alt="team members photo">
+        </div>
+      </div>
             </div>
 
       <!--text about the salon -->
@@ -227,7 +231,7 @@
             <div class="container mt-4">
               <div class="row">
                 <div class="col-lg-6">
-                  <img src="../assets/images/therapist2.jpeg" alt="Suzana Pace the hair stylist" width="100%">
+                  <img class="img-fluid" src="../assets/images/therapist2.jpeg" alt="Suzana Pace the hair stylist">
                 </div>
                 <div class="col-lg-6">
                   <article class="article">
@@ -270,7 +274,7 @@
                   </article>
                 </div>
                 <div class="col-lg-6">
-                  <img src="../assets/images/therapist1.jpeg" alt="Bernette Hili the nail technician" width="100%">
+                  <img class="img-fluid" src="../assets/images/therapist1.jpeg" alt="Bernette Hili the nail technician">
                 </div>
               </div>
             </div>
@@ -279,7 +283,7 @@
             <div class="container mt-4">
               <div class="row">
                 <div class="col-lg-6">
-                  <img src="../assets/images/therapist3.jpeg" alt="Mariah Ellul the beauty therapist" width="100%">
+                  <img class="img-fluid" src="../assets/images/therapist3.jpeg" alt="Mariah Ellul the beauty therapist" >
                 </div>
                 <div class="col-lg-6">
                   <article class="article">
@@ -301,15 +305,15 @@
               </div>
             </div>
 
-   <!--cart -->
-   <div class="addToBag" id="cart" style="display: none;">
+  <!--cart -->
+  <div class="addToBag" id="cart" style="display: none;">
     <button id="close-Bag" class="closeBag button btn6 text-center" onclick="document.getElementById('cart').style.display='none'">X</button>
     <h2>Shopping Bag</h2>
     <div class="listBag">
       <div class="items">
 
         <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" >
+          <input class="form-check-input" type="checkbox" value="" id="a" >
         </div>
         <div class="image">
           <img src="../assets/images/skin-product-1.png" alt="SHISEIDO-MEN-SKIN-EMPOWERING-CREAM-50ML">
@@ -317,75 +321,17 @@
         <div class="name">
           Shiseido Men Skin Empowering Cream 50ml
         </div>
-        <div class="totalPrice">
+        <div class="price">
           €128.00
         </div>
         <div class="quantity">
-          <span class="minus"><</span>
+          <span class="minus">&lt;</span>
           <span>1</span>
           <span class="plus">></span>
         </div>
       </div>
 
-      <div class="items">
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" >
-        </div>
-        <div class="image">
-          <img src="../assets/images/hair-product-1.png" alt="Karseell Hair Mask Collagen Treatment">
-        </div>
-        <div class="name">
-          Karseell Hair Mask Collagen Treatment
-        </div>
-        <div class="totalPrice">
-          €23.00
-        </div>
-        <div class="quantity">
-          <span class="minus"><</span>
-          <span>1</span>
-          <span class="plus">></span>
-        </div>
-      </div>
-
-      <div class="items">
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" >
-        </div>
-        <div class="image">
-          <img src="../assets/images/hair-product-2.jpg" alt="Milkshake Incredible Milk">
-        </div>
-        <div class="name">
-          Milkshake Incredible Milk
-        </div>
-        <div class="totalPrice">
-          €14.50
-        </div>
-        <div class="quantity">
-          <span class="minus"><</span>
-          <span>1</span>
-          <span class="plus">></span>
-        </div>
-      </div>
-
-      <div class="items">
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" >
-        </div>
-        <div class="image">
-          <img src="../assets/images/nail-products-1.jpg" alt="B-PRO COLOUR Gel Polish 133">
-        </div>
-        <div class="name">
-          B-PRO COLOUR Gel Polish 133
-        </div>
-        <div class="totalPrice">
-          €7.95
-        </div>
-        <div class="quantity">
-          <span class="minus"><</span>
-          <span>1</span>
-          <span class="plus">></span>
-        </div>
-      </div>
+      
     </div>
     <button class=" button btn5 text-center">Checkout</button>
 </div> 
@@ -524,7 +470,7 @@
     <div class="container">
       <div class="row">
         <article class="col-12 text-center">
-          <p class="cpr">&copy Kimberly Parascandalo</p>
+          <p class="cpr">&copy; Kimberly Parascandalo</p>
         </article>
       </div>
     </div>
