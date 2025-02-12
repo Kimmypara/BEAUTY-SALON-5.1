@@ -35,109 +35,114 @@
     </div>
   </header>
 
-  <!--navigation bar-->
-  <nav class="navbar navbar-expand-md">
-    <div class="container-fluid ">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse nav-underline justify-content-evenly " id="navbarSupportedContent">
+<!--navigation bar-->
+<nav class="navbar navbar-expand-md">
+  <div class="container-fluid ">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse nav-underline justify-content-evenly " id="navbarSupportedContent">
 
-        <a class="nav-link home" href="index.html"><span class="material-symbols-outlined">
-            home
-          </span>
-          Home
+      <a class="nav-link home" href="index.html"><span class="material-symbols-outlined">
+          home
+        </span>
+        Home
+      </a>
+
+     <ul class="my-0">
+      <li class="nav-item dropdown"  >
+        <a class="nav-link dropdown-toggle" ondblclick="location.href='products.html'"  href="products.html" role="button" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          Products
         </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="nail-products.html">Nail Products</a></li>
+          <li><a class="dropdown-item" href="hair-products.html">Hair Products</a></li>
+          <li><a class="dropdown-item" href="skin-products.html">Skin Products</a></li>
+        </ul>
+      </li>
+    </ul>
 
-        <li class="nav-item dropdown"  >
-          <a class="nav-link dropdown-toggle" ondblclick="location.href='products.html'"  href="products.html" role="button" data-bs-toggle="dropdown"
-            aria-expanded="false">
-            Products
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="nail-products.html">Nail Products</a></li>
-            <li><a class="dropdown-item" href="hair-products.html">Hair Products</a></li>
-            <li><a class="dropdown-item" href="skin-products.html">Skin Products</a></li>
-          </ul>
-        </li>
-
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" ondblclick="location.href='services.html'" href="services.html" role="button" data-bs-toggle="dropdown"
-            aria-expanded="false">
-            Services
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="nail-services.html">Nail Services</a></li>
-            <li><a class="dropdown-item" href="hair-services.html">Hair Services</a></li>
-            <li><a class="dropdown-item" href="beauty-care.html">Beauty Care</a></li>
-          </ul>
-        </li>
-
-        <a class="nav-link" href="contact-us.html">Contact Us</a>
-
-        <a class="nav-link" href="about-us.html">About Us</a>
-
-        <a class="nav-link" href="#" onclick="document.getElementById('cart').style.display='block'">
-          <span id="shoppingBag" class="material-symbols-outlined iconBag">
-            shopping_bag
-          </span>
-          <span class="num-of-items">0</span>
+    <ul class="my-0">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" ondblclick="location.href='services.html'" href="services.html" role="button" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          Services
         </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="nail-services.html">Nail Services</a></li>
+          <li><a class="dropdown-item" href="hair-services.html">Hair Services</a></li>
+          <li><a class="dropdown-item" href="beauty-care.html">Beauty Care</a></li>
+        </ul>
+      </li>
+    </ul>
+
+      <a class="nav-link" href="contact-us.html">Contact Us</a>
+
+      <a class="nav-link" href="about-us.html">About Us</a>
+
+      <a class="nav-link" href="#" onclick="document.getElementById('cart').style.display='block'">
+        <span id="shoppingBag" class="material-symbols-outlined iconBag">
+          shopping_bag
+        </span>
+        <span class="num-of-items">0</span>
+      </a>
 
 
-        <form class="d-flex" role="search"> <button id="search" class="btn btn-search btn-outline-success" type="submit">
-            <span class="material-symbols-outlined search">
-              search
-            </span></button>
-          <input id="input" class="form-control me-2 " list="search-suggestion" type="search" placeholder="Search" aria-label="Search">
+      <form class="d-flex" role="search"> <button id="search" class="btn btn-search btn-outline-success" type="submit">
+          <span class="material-symbols-outlined search">
+            search
+          </span></button>
+        <input id="input" class="form-control me-2 " list="search-suggestion" type="search" placeholder="Search" aria-label="Search">
 
 
-          <datalist id="search-suggestion" class="dropdown-menu">
-            <option class="dropdown-item" value="nail products">
-            <option class="dropdown-item" value="hair products">
-            <option class="dropdown-item" value="skin products">
-          </datalist>
-        </form>
+        <datalist id="search-suggestion" class="dropdown-menu">
+          <option class="dropdown-item" value="nail products">
+          <option class="dropdown-item" value="hair products">
+          <option class="dropdown-item" value="skin products">
+        </datalist>
+      </form>
 
-        
-      </div>
+      
     </div>
-  </nav>
+  </div>
+</nav>
 
 <!--Accessibility and Title Page Row-->
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-1"></div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-1"></div>
 
-       <!--accessibility-->
-       <div class="col-1 ">
-
-        <li class="nav-item dropdown">
-          <a class="nav-link " href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="currentColor"
-              class="bi bi-universal-access-circle mt-3 dropdown-toggle" viewBox="0 0 16 16">
-              <path
-                d="M8 4.143A1.071 1.071 0 1 0 8 2a1.071 1.071 0 0 0 0 2.143m-4.668 1.47 3.24.316v2.5l-.323 4.585A.383.383 0 0 0 7 13.14l.826-4.017c.045-.18.301-.18.346 0L9 13.139a.383.383 0 0 0 .752-.125L9.43 8.43v-2.5l3.239-.316a.38.38 0 0 0-.047-.756H3.379a.38.38 0 0 0-.047.756Z" />
-              <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0M1 8a7 7 0 1 1 14 0A7 7 0 0 1 1 8" />
-            </svg>
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" id="inc" onclick="setFontSize(s)" href="#">Increase +</a></li>
-            <li><a class="dropdown-item" id="dec" onclick="setFontSize(s)" href="#">Decrease -</a></li>
-            <li><button id="dark" class="dropdown-item" href="" onclick="swapStyleSheet('/assets/style-dark.css')">Dark Mode<svg xmlns="http://www.w3.org/2000/svg" width=".5rem"
-                  height="0.5rem" fill="currentColor" class="bi bi-moon-fill" viewBox="0 0 16 16">
-                  <path
-                    d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278" />
-                </svg></button></li>
-            <li><button id="light" class="dropdown-item" href="" onclick="swapStyleSheet('/assets/style.css')">Light Mode <svg xmlns="http://www.w3.org/2000/svg" width=".6rem"
-                  height=".6rem" fill="currentColor" class="bi bi-brightness-high-fill" viewBox="0 0 16 16">
-                  <path
-                    d="M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708" />
-                </svg></button></li>
-          </ul>
-        </li>
-      </div>
+    <!--accessibility-->
+    <div class="col-1 ">
+<ul>
+      <li class="nav-item dropdown">
+        <a class="nav-link " href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="currentColor"
+            class="bi bi-universal-access-circle mt-3 dropdown-toggle" viewBox="0 0 16 16">
+            <path
+              d="M8 4.143A1.071 1.071 0 1 0 8 2a1.071 1.071 0 0 0 0 2.143m-4.668 1.47 3.24.316v2.5l-.323 4.585A.383.383 0 0 0 7 13.14l.826-4.017c.045-.18.301-.18.346 0L9 13.139a.383.383 0 0 0 .752-.125L9.43 8.43v-2.5l3.239-.316a.38.38 0 0 0-.047-.756H3.379a.38.38 0 0 0-.047.756Z" />
+            <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0M1 8a7 7 0 1 1 14 0A7 7 0 0 1 1 8" />
+          </svg>
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" id="inc" onclick="setFontSize(s)" href="#">Increase +</a></li>
+          <li><a class="dropdown-item" id="dec" onclick="setFontSize(s)" href="#">Decrease -</a></li>
+          <li><button id="dark" class="dropdown-item"  onclick="swapStyleSheet('/assets/style-dark.css')">Dark Mode<svg xmlns="http://www.w3.org/2000/svg" width=".5rem"
+                height="0.5rem" fill="currentColor" class="bi bi-moon-fill" viewBox="0 0 16 16">
+                <path
+                  d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278" />
+              </svg></button></li>
+          <li><button id="light" class="dropdown-item"  onclick="swapStyleSheet('/assets/style.css')">Light Mode <svg xmlns="http://www.w3.org/2000/svg" width=".6rem"
+                height=".6rem" fill="currentColor" class="bi bi-brightness-high-fill" viewBox="0 0 16 16">
+                <path
+                  d="M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708" />
+              </svg></button></li>
+        </ul>
+      </li>
+    </ul>
+    </div>
 
       <!--page title-->
       <div class="col-8 text-center mt-3">
@@ -153,9 +158,9 @@
       <div class="row">
         <div class="col-3"></div>
         <div class="col-xs-8 col-md-8 col-lg-6 d-flex">
-          <a class="button btn3" type="button" href="nail-services.html">Nail Services</a>
-          <a class="button btn3" type="button" href="hair-services.html">Hair Services</a>
-          <a class="button btn3" type="button" href="beauty-care.html">Beauty Care</a>
+          <a class="button btn3"  href="nail-services.html">Nail Services</a>
+          <a class="button btn3"  href="hair-services.html">Hair Services</a>
+          <a class="button btn3"  href="beauty-care.html">Beauty Care</a>
         </div>
         <div class="col-3"></div>
       </div>

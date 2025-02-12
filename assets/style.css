@@ -55,9 +55,13 @@ body{
 }
 
 .btn2{
+  display: inline-flex;
+  margin-top: 55%;
+  width: 100% !important;
+  height: 1.5rem;
   text-align: center;
-  margin-top: 50%;
-  width: 100%;
+  justify-content: center; 
+  align-items: center;
   
 }
 
@@ -224,9 +228,9 @@ li{
     list-style: none;
 }
 
+
 .dropdown-menu{
   background-color:#EEE6DC ;
- 
   font-size: 0.7rem;
   border-color: #1C7A7F;
   min-width: 60px !important ;
@@ -260,7 +264,11 @@ margin: auto;
   outline: 0;
   box-shadow: 0 0 0 0.25rem #A3CAB8;
 }
-
+.nav-link.dropdown-toggle{
+  margin-left: -2rem !important;
+  margin-bottom: 0% !important;
+  padding-top: .1rem;
+}
 
 
 input[type=search]:focus-visible{
@@ -460,6 +468,18 @@ h4{
   border-radius: .5rem;
 }
 
+#slogan3{
+  position: absolute;
+  color: #1C7A7F;
+  font-size: 1.5rem;
+  top: 2rem;
+  margin-left: 2rem;
+  padding: .5rem;
+  text-align: center;
+  font-weight: bold;
+  background-color: #EEE6DC;
+  border-radius: .5rem;
+}
 
 
 
