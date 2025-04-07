@@ -93,13 +93,18 @@ else{
 }
 
 
-
-
-
 //darkmode
-function swapStyleSheet(sheet){
-  document.getElementById('styleLight').setAttribute('href', sheet);
+function swapStyleSheet(sheet) {
+  document.getElementById("styleLight").setAttribute("href", sheet);
+  localStorage.setItem("theme", sheet);
 }
+window.onload = () => {
+  const savedTheme = localStorage.getItem("theme");
+  if (savedTheme) swapStyleSheet(savedTheme);
+};
+
+
+
 
 //Cart
 /*let body = document.querySelector('body');
